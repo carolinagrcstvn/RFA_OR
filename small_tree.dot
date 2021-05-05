@@ -1,0 +1,33 @@
+digraph Tree {
+node [shape=box, style="rounded", color="black", fontname=helvetica] ;
+edge [fontname=helvetica] ;
+0 [label="temp_1 <= 23.8\nmse = 29.7\nsamples = 167\nvalue = 23.9"] ;
+1 [label="average <= 18.9\nmse = 9.8\nsamples = 76\nvalue = 19.0"] ;
+0 -> 1 [labeldistance=2.5, labelangle=45, headlabel="True"] ;
+2 [label="average <= 15.5\nmse = 4.8\nsamples = 35\nvalue = 16.9"] ;
+1 -> 2 ;
+3 [label="mse = 0.0\nsamples = 2\nvalue = 9.4"] ;
+2 -> 3 ;
+4 [label="mse = 3.0\nsamples = 33\nvalue = 17.1"] ;
+2 -> 4 ;
+5 [label="day <= 7.5\nmse = 6.0\nsamples = 41\nvalue = 21.1"] ;
+1 -> 5 ;
+6 [label="mse = 3.5\nsamples = 6\nvalue = 18.4"] ;
+5 -> 6 ;
+7 [label="mse = 4.4\nsamples = 35\nvalue = 21.7"] ;
+5 -> 7 ;
+8 [label="average <= 27.6\nmse = 9.4\nsamples = 91\nvalue = 28.0"] ;
+0 -> 8 [labeldistance=2.5, labelangle=-45, headlabel="False"] ;
+9 [label="temp_1 <= 28.7\nmse = 7.9\nsamples = 44\nvalue = 25.8"] ;
+8 -> 9 ;
+10 [label="mse = 6.0\nsamples = 33\nvalue = 25.1"] ;
+9 -> 10 ;
+11 [label="mse = 8.4\nsamples = 11\nvalue = 27.9"] ;
+9 -> 11 ;
+12 [label="temp_1 <= 28.2\nmse = 2.6\nsamples = 47\nvalue = 29.9"] ;
+8 -> 12 ;
+13 [label="mse = 2.1\nsamples = 12\nvalue = 28.0"] ;
+12 -> 13 ;
+14 [label="mse = 1.6\nsamples = 35\nvalue = 30.4"] ;
+12 -> 14 ;
+}

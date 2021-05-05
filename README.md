@@ -20,9 +20,4 @@ Enumerate the references used in your work.
 
 
 
-Attached to this task, you can find a template Notebook you can use to comply with your assignment. 
-
-
-Hola guapo, no se si he creado bien el commit y todo eso, pero espero que te haya llegado y que no la haya liado mucho. 
-Un besito,
-Carol ♥
+Attached to this task, you can find a template Notebook you can use to comply with your assignment.
